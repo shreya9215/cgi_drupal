@@ -1,0 +1,5 @@
+related-content-page:
+  version: 1.x
+  css:
+    theme:
+      css/related-media.css: {}

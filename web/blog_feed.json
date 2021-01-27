@@ -1,0 +1,35 @@
+{
+  "Name": "Blog feeds",
+  "version": 1.0,
+  "releaseDate": "2019-05-20T00:00:00.000Z",
+  "blogs": {
+  	"1" : {
+	    "title": "Exploring the DevOps model through gamification",
+		"author": "Perttu Mikkonen",
+		"image": "https://www.cgi.com/sites/default/files/styles/medium_related_content/public/perttu-mikkola.jpg",
+		"date": "1558547419",
+		"category": "DevOps"
+  	},
+  	"2" : {
+	    "title": "Next-gen, real-time data exchanges will power the energy industry",
+		"author": "Mattijs van den Hoed",
+		"image": "https://www.cgi.com/sites/default/files/styles/medium_related_content/public/experthd_mattus_van_den_hoed_01.jpg?itok=fhDFNvCW",
+		"date": "1557510619",
+		"category": "Utilities"
+  	},
+  	"3" : {
+	    "title": "Rethinking how things get done, part 4: Moving to an agile operating model",
+		"author": "Craig Wallace",
+		"image": "https://www.cgi.com/sites/default/files/craig-wallace.jpg",
+		"date": "1557337819",
+		"category": "Digital transformation"
+  	},
+  	"4" : {
+	    "title": "Four best practices promote effective innovation management",
+		"author": "Andrea Schmitz",
+		"image": "https://www.cgi.com/sites/default/files/andrea-schmitz.jpg",
+		"date": "1556733019",
+		"category": "Emerging Technologies"
+  	}
+  }
+}

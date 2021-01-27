@@ -1,0 +1,5 @@
+name: CGI Related Media
+description: Provides feature for related media component.
+package: CGI
+type: module
+core: 8.x

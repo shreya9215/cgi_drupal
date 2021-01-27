@@ -1,0 +1,7 @@
+cgi_related_media.mediapage:
+  path: '/related-media'
+  defaults:
+    _controller: '\Drupal\cgi_related_media\Controller\RelatedMedia::mediaPage'
+    _title: 'Related Media'
+  requirements:
+    _permission: 'access content'

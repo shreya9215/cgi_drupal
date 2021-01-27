@@ -1,0 +1,28 @@
+{{ attach_library('cgi_related_media/related-content-page') }}
+<div class = "left-column col-md-9">
+    {% for media_node in media_teaser_nodes %}
+        {{media_node}}
+    {% endfor %}
+</div>
+
+<div class = "right-column col-md-3">
+    <h3 class="blog-name"> FROM OUR BLOG </h3>
+    <div class ="blog">
+        {% for item in blog_data %}
+            <div class = "persona-image">
+                <img src="{{ item.image}}" alt="My Logo" width="50" height="50" />
+            </div>
+            <div class = "details">
+                <div class = "blog-author-name">
+                    {{item.author}}
+                </div>
+                <div class = "blog-title">
+                    {{item.title}}
+                </div>
+                <div class = "blog-date">
+                    {{item.date|format_date('custom', 'F j, Y')}}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

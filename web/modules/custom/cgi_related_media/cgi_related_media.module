@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * This is the module to create the Related media component.
+ */
+/**
+ * Implements hook_theme().
+ */
+function cgi_related_media_theme() {
+  return array(
+   'related_media_block' => array(
+    'variables' => ['media_teaser_nodes' => NULL,'blog_data' => NULL],
+        ),
+  );
+}
